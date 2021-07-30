@@ -1,7 +1,7 @@
 package com.company;
 
 public class Die {
-    public int value;
+    public int faceUpValue;
     public int numOfSides;
 
     public Die (){
@@ -14,7 +14,7 @@ public class Die {
     }
 
     public void roll () {
-        value = (int) ((Math.random() * numOfSides) + 1); //1 - 6
+        faceUpValue = (int) ((Math.random() * numOfSides) + 1); //1 - 6
     }
 
 }
