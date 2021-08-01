@@ -1,6 +1,7 @@
 Recreate your own version of the game Dice Mage
 
-
+### DiceMage.jar
+    Game Demo
 game required rules
 Minimum 2 Players
 every turn the player earns 1 mana
