@@ -9,5 +9,11 @@ public class Main {
         p1.mana.manaPool = 1;
 
         System.out.println(p1.mana.manaPool);
+
+        if(true){
+            p1.mana.manaPool += 1;
+        }else{
+            p1.mana.manaPool = 0;
+        }
     }
 }
