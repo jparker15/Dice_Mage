@@ -1,9 +1,13 @@
 package com.company;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Mana {
 
         public ArrayList<Die> mana = new ArrayList<>();
+        public int manaPool = 0;
 
         public Mana (){
 
@@ -11,27 +15,18 @@ public class Mana {
 
         public void roll(){
             // for each die in dice
-            for (var die: dice) {
-
+            for (Die die: mana) {
+                die.roll();
             }
         }
-        // single roll die
-        public void roll (int choice){
 
-        }
 
-        public void roll ( List<Integer> choices){
-            for (int choice: choices) {
-
-//            roll(rand,choice);
-            }
-        }
 
         @Override
         public String toString(){
             String output = "";
-            for (Die die:dice) {
-                output += die.value + "";
+            for (Die die:mana) {
+                output += die.faceUpValue + "";
             }
             return output.trim();
         }
