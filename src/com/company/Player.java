@@ -2,10 +2,12 @@ package com.company;
 
 public class Player {
     public String name;
-    public Mana mana = new Mana();
+    public Aether aether = new Aether();
+    public int health = 5;
+    public int mana = 0;
 
 
-    public Player(String name){
+    public Player(){
         this.name = name;
     }
 }
