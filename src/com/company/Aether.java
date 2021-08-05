@@ -2,6 +2,7 @@ package com.company;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 
@@ -29,7 +30,9 @@ public class Aether {
             for (Die die: totalPool) {
                 output += die.faceUpValue + "";
             }
-            output.toCharArray();
+            char[] arr = output.toCharArray();
+            Arrays.sort(arr);
+            output = new String(arr);
 
             return output.trim();
         }
