@@ -25,6 +25,10 @@ public class Aether {
             }
         }
 
+        public void addAether(){
+            totalPool.add(new Die());
+        }
+
         public String display(){
             String output = "";
             for (Die die: totalPool) {
