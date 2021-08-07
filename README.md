@@ -27,3 +27,6 @@ Default battle system
     Extra defending monsters do not attack
 
 player has health when they run out they die. Last player standing wins
+
+
+Finish Rough Draft 
