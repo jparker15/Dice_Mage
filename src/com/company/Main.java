@@ -37,8 +37,8 @@ public class Main {
                 System.out.println("summon monster?");
                 String answer = scanner.next();
                 if(answer.equals("y")){
-                    p1.mana -= 6;
                     p1.den.addMonster();
+                    p1.mana -= p1.den.den.size() * 3;
                 }
             }
             i++;
