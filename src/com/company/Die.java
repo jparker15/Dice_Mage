@@ -9,8 +9,8 @@ public class Die {
 
     }
 
-    public Die(int numOfSides){
-        this.numOfSides = numOfSides;
+    public Die(int faceUpValue){
+        this.faceUpValue = faceUpValue;
     }
 
     public void roll () {
