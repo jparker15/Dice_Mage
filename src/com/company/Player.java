@@ -12,6 +12,10 @@ public class Player {
         this.name = name;
     }
 
+    public Player(String name){
+        this.name = name;
+    }
+
     public void displayStats(){
         System.out.println("\nMage " + name);
         System.out.println("Health: " + health + " | Aether: " + aether.totalPool.size() + " | Mana: " + mana);
