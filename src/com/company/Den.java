@@ -8,12 +8,13 @@ public class Den {
 
 
     public void addMonster(){
-        den.add(new Die(den.size() * 2));
+        den.add(new Die(den.size() + 1 * 2));
     }
 
     public void display(){
+        System.out.println("Den:");
+
         for(Die monster: den){
-            System.out.println("Den:");
             System.out.println("d" + monster.faceUpValue);
         }
     }
