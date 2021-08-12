@@ -30,15 +30,15 @@ public class Aether {
         }
 
         public String display(){
-            String output = "";
+            String output = "|";
             for (Die die: totalPool) {
-                output += die.faceUpValue + "";
+                output += die.faceUpValue + "|";
             }
-            char[] arr = output.toCharArray();
-            Arrays.sort(arr);
-            output = new String(arr);
+//            char[] arr = output.toCharArray();
+//            Arrays.sort(arr);
+////            output = new String(arr);
 
-            return output.trim();
+            return output;
         }
 
         public int generateMana(){
