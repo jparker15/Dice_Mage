@@ -18,9 +18,11 @@ public class Player {
 
     public void displayStats(){
         System.out.println("\nMage " + name);
-        System.out.println("Health: " + health + " | Aether: " + aether.totalPool.size() + " | Mana: " + mana);
+        System.out.println("Health: " + health + " | Aether: " + aether.totalPool.size() + " | Mana: " + mana +"\n");
+
         if(den.den.size() > 0){
             den.display();
+            System.out.println("\n");
         }
 
     }
