@@ -6,12 +6,13 @@ public class Test {
 
         Player p1 = new Player("Wyt");
         Player p2 = new Player("Blk");
+        boolean gameOver = false;
 
         dice.players.add(p1);
         dice.players.add(p2);
 
 
-        while(true){
+        while(!gameOver){
             dice.start();
 
         }
