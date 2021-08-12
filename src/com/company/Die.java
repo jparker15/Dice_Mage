@@ -9,10 +9,6 @@ public class Die {
 
     }
 
-    public Die(int faceUpValue){
-        this.faceUpValue = faceUpValue;
-    }
-
     public void roll () {
         faceUpValue = (int) ((Math.random() * numOfSides) + 1); //1 - 6
     }
