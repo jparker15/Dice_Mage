@@ -29,4 +29,6 @@ Default battle system
 player has health when they run out they die. Last player standing wins
 
 
-Finish Rough Draft 
+Finish Rough Draft [*]
+Update UI []
+Fix Game Over bug []
