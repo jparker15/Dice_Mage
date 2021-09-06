@@ -1,4 +1,4 @@
-Recreate your own version of the game Dice Mage
+Finish 
 
 ### DiceMage.jar
     Game Demo
